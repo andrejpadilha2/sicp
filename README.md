@@ -16,7 +16,7 @@ Segundo que o livro trata de algo que é ainda um passo antes de algoritmos: lin
 
 E realmente valeu a pena.
 
-Para ser bem honesto com o livro e explicar realmente o quão impressionante ele é, eu teria que copiar todas as palavras dele aqui, o que me daria um Copyright Infringment. Sigo com minhas palavras, definitivamente piores que as dos autores de SICP.
+Para ser bem honesto com o livro e explicar realmente o quão impressionante ele é, eu teria que copiar todas as palavras dele aqui, o que me daria um Copyright Infringement. Sigo com minhas palavras, definitivamente piores que as dos autores de SICP.
 
 Vou deixar aqui algumas das ideias mais legais que vi no livro:
 - Abstração, abstração, abstração:  rapidamente percebemos que programas de computador crescem muito rapidamente. Usamos abstrações SEMPRE que podemos para não pensar no programa em termos do que o computador nos oferece, e sim no problema que queremos resolver.
