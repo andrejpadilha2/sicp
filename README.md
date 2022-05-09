@@ -1,8 +1,10 @@
 ### Structure and Interpretation of Computer Programs
 
-Iniciei minha jornada pelo primeiro tópico, "Programação", com o livro "Structure and Interpretation of Computer Programs" (SICP). Li, assisti aulas e resolvi mais de 300 exercícios (link github) por conta própria em um período de aproximadamente 5 meses (mais sobre essa maravilhosa referência abaixo).
+Procurando referências para aprender Ciência da Computação com mais rigor/profundidade, acabei encontrando o site https://teachyourselfcs.com/ e foi daqueles sites que salvei no favorito e sempre dou umas olhadinhas nas referências de lá, embora seja super curtinho.
 
-Segui a recomendação do site [Teach Yourself Computer Science](https://teachyourselfcs.com/) e comecei pelo SICP. E minha mente realmente deu uma explodida lendo este livro. 
+Iniciei minha jornada pelo primeiro tópico, "Programação", com o livro "Structure and Interpretation of Computer Programs" (SICP). Li, assisti aulas e resolvi mais de 300 exercícios (estes aqui!) por conta própria em um período de aproximadamente 5 meses.
+
+E minha mente realmente deu uma explodida lendo este livro. 
 
 Durante a vida universitária nós estudamos com muitos livros, lemos muitas coisas, resolvemos muitos exercícios, mas sempre tem algo que se separa do restante, talvez por termos tido um bom professor ou talvez pelo livro em si ser muito bom. Como li o livro por conta (tive o apoio das aulas online do Professor Brian Harvey), é o caso da segunda opção.
 
