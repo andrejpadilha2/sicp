@@ -1,0 +1,6 @@
+(define (sumBigSquares x y z)
+	(if (and (< x y) (< x z)) (+ (* y y) (* z z)) 
+		(and (< y x) (< y z)) (+ (* x x) (* z z)) 
+		(else (+ (* y y) (* x x)) )
+	)
+)

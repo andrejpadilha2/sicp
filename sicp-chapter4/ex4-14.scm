@@ -1,0 +1,3 @@
+;; (map <proc> <list>) maps a procedure to each element of a given list
+
+;; not necessarily the procedure "map" of the system version (the "underlying lisp") is adequate with the other implementations of procedures, EVAL/APPLY that we used...

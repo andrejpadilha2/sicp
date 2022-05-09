@@ -1,0 +1,3 @@
+it's a function which adds a and b if b is greater than zero, otherwise it subtract b from a
+
+can be interpreted as adding the absolute value of b to a

@@ -1,0 +1,32 @@
+(define (new-if predicate then-clause else-clause) 
+	( cond (predicate then-clause) 
+		(else else-clause))) 
+
+
+
+
+(define (sqrt-iter guess x) 
+	(new-if (good-enough? guess x) 
+		guess 
+		( sqrt-iter ( improve guess x) 
+			x) )) 
+
+What happens when Alyssa attempts to use this to compute square roots? Explain. 
+
+
+this "new-if" procedure is not a special form of procedure, so the evaluation of it will follow applicative-order
+therefore "new-if" will evaluate the operator and operands (following applicative-order), this will result in
+
+(sqrt-iter 5 36)
+(new-if (good-enough? 5 36) 5 (sqrt-iter (improve 5 36) 36))
+then it would evaluate the "(good-enough? 5 36)" to FALSE, evaluate the 5 AAAAAAAAAAND evaluate the "(sqrt-iter (improve 5 36) 36))"...this is the catch
+
+it would keep improving until, let's say, it evaluates a "(good-enough? 5.9999 36)" (which is indeed good-enough) to TRUE...but it would evaluate AGAIN "(sqrt-iter (improve 5.9999 36) 36))"....and this "(sqrt-iter (improve 5.9999 36) 36))" would then keep evaluating new improvements and new improvements....
+
+in short, it would never stop
+
+
+
+the if statement, is a special procedure, and does not use APPLICATIVE-ORDER EVALUATION.
+
+

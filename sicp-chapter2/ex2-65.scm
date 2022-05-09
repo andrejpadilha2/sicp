@@ -1,0 +1,13 @@
+(define union-set-bal set1 set2)
+	(cond ((null? set1) set2)
+		((null? set2) set1)
+		(else (list->tree (union-set (tree->list set1) (tree->list set2))))
+	)
+)
+
+(define intersection-set-bal set1 set2)
+	(cond ((null? set1) '())
+		((null? set2) '())
+		(else (list->tree (intersection-set (tree->list set1) (tree->list set2))))
+	)
+)

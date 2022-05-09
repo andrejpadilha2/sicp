@@ -1,0 +1,20 @@
+(define (expmod base exp m)
+	(cond ((= exp 0) 1)
+		((even? exp)
+			(remainder (square (expmod base (/ exp 2) m)) m))
+		(else (remainder (* base (expmod base (- exp 1) m)) m))
+	)
+)
+
+(define (carmichael-test n)
+	(define (iter a n)
+		(cond ((< a n) 
+				(if (= (expmod a n n) a) (iter (+ a 1) n)  (display "surprisingly the test didn't fail or you didn't provide a Carmichael number"))
+			)
+		(else 
+			(display "you have been fooled"))
+		)
+		
+	)
+	(iter 1 n)
+)

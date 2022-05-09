@@ -1,0 +1,3 @@
+Louis is not right. The transfer procedure access each account independently from each other, the only resource used by both is the information from "amount", which is not relevant to cause a concurrency problem. Even if we had 3 accounts, say a1, a2 and a3, and we transfer $10 from a1 to a2 (process 1), and at the same time we transfer $20 from a1 to a3 (process 2), assuming that a1 has sufficient balance (which the exercise does assume), even if the two processes interleaves, the result would be the same.
+
+The exchange procedure, on the other hand, calculates "difference" based on both balances of each account, so it could raise concurreny problems. That's why we need to serialize this procedure using both accounts serializers.

@@ -1,0 +1,7 @@
+(define (lookup-binary-tree given-key tree)
+	(cond ((null? tree) false)
+		((equal? given-key (key (entry tree))) (entry tree))
+		((< given-key (key (entry tree))) (lookup-binary-tree given-key (left-branch tree)))
+		(( > given-key (key (entry tree))) (lookup-binary-tree given-key (right-branch tree)))
+	)
+)

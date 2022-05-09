@@ -1,0 +1,5 @@
+(define (an-integer-between low high)
+	(if (= low high) 
+		(require (<= low high))
+		(amb low (an-integer-between (+ low 1) high)))
+)

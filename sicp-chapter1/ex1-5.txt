@@ -1,0 +1,20 @@
+in applicative-order evaluation:
+it gets in an infinite loop because it's always trying to expand (p), but (p) is recursively and infinitely expanding to itself
+
+(test 0 (p))
+
+(test 0 (p))
+
+(test 0 (p))
+
+
+in normal-order evaluation:
+
+(test 0 (p))
+(if (= 0 0) 0 (p))
+(if TRUE 0 (p))
+0
+
+
+
+it never expands (p) because it didn't even need, since the if statemente didn't return (p)

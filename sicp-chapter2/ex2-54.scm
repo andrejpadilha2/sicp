@@ -1,0 +1,8 @@
+(define (equal? list1 list2)
+	(if (and (not (pair? list1)) (not (pair? list)))
+		(eq? list1 list2)
+		(and (equal? (car list1) (car list2))
+			(equal? (cdr list1) (cdr list2))
+		)
+	)
+)
