@@ -11,6 +11,7 @@ Durante a vida universitária nós estudamos com muitos livros, lemos muitas coi
 Primeiro que o livro passou obviamente pelo teste do tempo: primeira edição em 1984, segunda edição em 1996. Isso é algo que vem me convencendo mais e mais ultimamente. Coisas que são úteis em qualquer época sem precisar de buzzwords ou apelo financeiro ("{leia este livro}/{faça este curso} e aumente seu salário em até 100%"). 
 
 Segundo que o livro trata de algo que é ainda um passo antes de algoritmos: linguagens de programação no geral. Me convenci particularmente por conta da seguinte passagem:
+
 *Why? Because SICP is unique in its ability - at least potentially - to alter your fundamental beliefs about computers and programming. Not everybody will experience this. Some will hate the book, others won't get past the first few pages. But the potential reward makes it worth trying.*
 
 E realmente valeu a pena.
@@ -39,4 +40,6 @@ Acho que o principal é entender que as linguagens de programação servem para 
 
 ### Outras avaliações
 Para complementar, algumas outras avaliações sobre o SICP:
-SICP was revolutionary in many different ways. Most importantly, it dramatically raised the bar for the intellectual content of introductory computer science. Before SICP, the first CS course was almost always entirely filled with learning the details of some programming language. SICP is about standing back from the details to learn big-picture ways to think about the programming process. It focused attention on the central idea of abstraction - finding general patterns from specific problems and building software tools that embody each pattern. http://people.eecs.berkeley.edu/~bh/sicp.html#:~:text=SICP%20is%20about%20standing%20back,tools%20that%20embody%20each%20pattern.
+
+*SICP was revolutionary in many different ways. Most importantly, it dramatically raised the bar for the intellectual content of introductory computer science. Before SICP, the first CS course was almost always entirely filled with learning the details of some programming language. SICP is about standing back from the details to learn big-picture ways to think about the programming process. It focused attention on the central idea of abstraction - finding general patterns from specific problems and building software tools that embody each pattern.*
+http://people.eecs.berkeley.edu/~bh/sicp.html#:~:text=SICP%20is%20about%20standing%20back,tools%20that%20embody%20each%20pattern.
