@@ -42,7 +42,7 @@ Acho que o principal é entender que as linguagens de programação servem para 
 ### Outras avaliações
 Para complementar, algumas outras avaliações sobre o SICP:
 
-*SICP was revolutionary in many different ways. Most importantly, it dramatically raised the bar for the intellectual content of introductory computer science. Before SICP, the first CS course was almost always entirely filled with learning the details of some programming language. SICP is about standing back from the details to learn big-picture ways to think about the programming process. It focused attention on the central idea of abstraction - finding general patterns from specific problems and building software tools that embody each pattern.*
+*SICP was revolutionary in many different ways. Most importantly, it dramatically raised the bar for the intellectual content of introductory computer science. Before SICP, the first CS course was almost always entirely filled with learning the details of some programming language. SICP is about standing back from the details to learn big-picture ways to think about the programming process. It focused attention on the central idea of abstraction - finding general patterns from specific problems and building software tools that embody each pattern.* https://www.quora.com/Whats-so-great-about-SICP
 
 http://people.eecs.berkeley.edu/~bh/sicp.html#:~:text=SICP%20is%20about%20standing%20back,tools%20that%20embody%20each%20pattern.
 
